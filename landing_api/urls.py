@@ -1,6 +1,8 @@
 from django.urls import path
-from . import views
+from .views import LandingAPI
 
 urlpatterns = [
-    path('index/', views.LandingAPI.as_view(), name='landing_api'),
+    # La ruta será /landing/api/index/
+    path('index/', LandingAPI.as_view(), name='index'),
 ]
+
