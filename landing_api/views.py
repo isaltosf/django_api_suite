@@ -21,7 +21,7 @@ class LandingAPI(APIView):
     
     def post(self, request):
 
-        data = request.data.copy()
+        data = request.data
         
         ref = db.reference(f'{self.collection_name}')
         
