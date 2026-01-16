@@ -7,7 +7,7 @@ from rest_framework import status
 
 import uuid
 
-# Simulación de base de datos local en memoria
+# Simulación de base de datos local en memori
 data_list = []
 
 # Añadiendo algunos datos de ejemplo para probar el GET
