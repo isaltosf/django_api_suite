@@ -1,7 +1,6 @@
 from django.shortcuts import render
 
 # Create your views here.
->>>>>>> 0278fa5 (feat: Guia 22 complete)
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
